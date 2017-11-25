@@ -1,0 +1,14 @@
+{
+    "admin/daynightswitcher_style_list.json": {
+        "hash": "e31526fd752fa3a5a52a369fb74ba77f"
+    },
+    "admin/daynightswitcher_style_list_style.json": {
+        "hash": "38eebc532bb73c57e7fa67d3cf6e7fe8"
+    },
+    "public/daynightswitcher_account_preferences.json": {
+        "hash": "dbea6a4072d467ac79c977d983856b9c"
+    },
+    "public/daynightswitcher_account_preferences_disable_style.json": {
+        "hash": "ca586d9b32460e1f38e3803cc1468401"
+    }
+}

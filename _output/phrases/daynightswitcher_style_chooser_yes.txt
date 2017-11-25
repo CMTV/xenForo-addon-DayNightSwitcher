@@ -1,0 +1,1 @@
+This forum automatically change themes depending on current time. You can change this behavior in your account preferences.

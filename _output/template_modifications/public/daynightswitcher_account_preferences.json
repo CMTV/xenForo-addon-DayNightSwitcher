@@ -1,0 +1,9 @@
+{
+    "template": "account_preferences",
+    "description": "Checkbox for enabling Day Night Switcher functionality",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:if is=\"$xf.visitor.canChangeStyle()\">\n\n\t\t\t\t<xf:selectrow name=\"user[style_id]\" value=\"{$xf.visitor.style_id}\"\n\t\t\t\t\tlabel=\"{{ phrase('style') }}\">\n\n\t\t\t\t\t<xf:option value=\"0\">{{ phrase('use_default_style:') }} {$defaultStyle.title}</xf:option>\n\t\t\t\t\t<xf:optgroup label=\"{{ phrase('styles:') }}\">\n\t\t\t\t\t\t<xf:foreach loop=\"$styles\" value=\"$style\">\n\t\t\t\t\t\t\t<xf:option value=\"{$style.style_id}\">{{ repeat('--', $style.depth) }} {$style.title}{{ !$style.user_selectable ? ' *' : '' }}</xf:option>\n\t\t\t\t\t\t</xf:foreach>\n\t\t\t\t\t</xf:optgroup>\n\t\t\t\t</xf:selectrow>\n\t\t\t<xf:else />\n\t\t\t\t<xf:hiddenval name=\"user[style_id]\">{$xf.visitor.style_id}</xf:hiddenval>\n\t\t\t</xf:if>",
+    "replace": "$0\n\n<xf:if is=\"{{ $xf.visitor.hasPermission('general', 'daynightswitcher_disable') }}\">\n\t<xf:checkboxrow>\n\t\t<xf:option value=\"daynightswitcher_enabled\"\n\t\t\t   \tname=\"option[daynightswitcher_enabled]\"\n\t\t\t   \tchecked=\"{{ $xf.visitor.Option.daynightswitcher_enabled }}\"\n\t\t\t   \tlabel=\"{{ phrase('daynightswitcher_account_preferences_checkbox') }}\" />\n\t</xf:checkboxrow>\n</xf:if>"
+}

@@ -1,0 +1,9 @@
+{
+    "template": "account_preferences",
+    "description": "Disabling style chooser if addon functionality is enabled",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:selectrow name=\"user[style_id]\" value=\"{$xf.visitor.style_id}\"\n\t\t\t\t\tlabel=\"{{ phrase('style') }}\">\n\n\t\t\t\t\t<xf:option value=\"0\">{{ phrase('use_default_style:') }} {$defaultStyle.title}</xf:option>\n\t\t\t\t\t<xf:optgroup label=\"{{ phrase('styles:') }}\">\n\t\t\t\t\t\t<xf:foreach loop=\"$styles\" value=\"$style\">\n\t\t\t\t\t\t\t<xf:option value=\"{$style.style_id}\">{{ repeat('--', $style.depth) }} {$style.title}{{ !$style.user_selectable ? ' *' : '' }}</xf:option>\n\t\t\t\t\t\t</xf:foreach>\n\t\t\t\t\t</xf:optgroup>\n\t\t\t\t</xf:selectrow>",
+    "replace": "<xf:if is=\"$xf.options.daynightswitcher_globalEnabled\">\n\t<xf:if is=\"{{ !$xf.visitor.hasPermission('general', 'daynightswitcher_disable') || $xf.visitor.Option.daynightswitcher_enabled }}\">\n\t\t<xf:selectrow name=\"user[style_id]\" value=\"{$xf.visitor.style_id}\"\n\t\t\t\t\t  label=\"{{ phrase('style') }}\" disabled=\"true\"\n\t\t\t\t\t  explain=\"{{ phrase('daynightswitcher_can_not_change_style') }}\">\n\n\t\t\t<xf:option value=\"0\">{{ phrase('use_default_style:') }} {$defaultStyle.title}</xf:option>\n\t\t\t<xf:optgroup label=\"{{ phrase('styles:') }}\">\n\t\t\t\t<xf:foreach loop=\"$styles\" value=\"$style\">\n\t\t\t\t\t<xf:option value=\"{$style.style_id}\">{{ repeat('--', $style.depth) }} {$style.title}{{ !$style.user_selectable ? ' *' : '' }}</xf:option>\n\t\t\t\t</xf:foreach>\n\t\t\t</xf:optgroup>\n\t\t</xf:selectrow>\n\t<xf:else />\n\t\t$0\n\t</xf:if>\n<xf:else />\n\t$0\n</xf:if>"
+}

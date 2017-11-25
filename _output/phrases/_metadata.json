@@ -1,0 +1,122 @@
+{
+    "daynightswitcher_account_preferences_checkbox.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "88be28e4f6650b8bdc5ff9453e34603c"
+    },
+    "daynightswitcher_can_not_change_style.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "410807a3b217efff1a016019747624f4"
+    },
+    "daynightswitcher_day_style.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "14d20866535887c1576b06e73822c3f0"
+    },
+    "daynightswitcher_night_style.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "6639ae1dc34656dc16ca7a51c7bebc8a"
+    },
+    "daynightswitcher_style_chooser_disabled.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "054818e55fb44442a666c4a334ace079"
+    },
+    "daynightswitcher_style_chooser_no.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "0c93ac21fff796597799b3fadd74d6f3"
+    },
+    "daynightswitcher_style_chooser_yes.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "2ab2cbdc03fba24555fb2b57e3ea411c"
+    },
+    "option.daynightswitcher_dayTheme.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "14d20866535887c1576b06e73822c3f0"
+    },
+    "option.daynightswitcher_dayTime.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "b1629757ccb65c0701d055e73f21ca3a"
+    },
+    "option.daynightswitcher_globalEnabled.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "23a6255e5b6a58f8bd3006052afffe05"
+    },
+    "option.daynightswitcher_guestsEnabled.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "debf33fb174ee9bc2478971e788764ff"
+    },
+    "option.daynightswitcher_nightTheme.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "6639ae1dc34656dc16ca7a51c7bebc8a"
+    },
+    "option_explain.daynightswitcher_dayTheme.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "21ca244c97b4d193131cc7f53b1c6467"
+    },
+    "option_explain.daynightswitcher_dayTime.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "7518dd6248bb315562d9180ec88894ba"
+    },
+    "option_explain.daynightswitcher_globalEnabled.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_explain.daynightswitcher_guestsEnabled.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "8e40be705ab33a59935b529f4e5ca04f"
+    },
+    "option_explain.daynightswitcher_nightTheme.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "741bba853c6159dbf5cc2739327aaa0a"
+    },
+    "option_group.daynightswitcher.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "ada518766e20d11b0b525bb7e81cb8f0"
+    },
+    "option_group_description.daynightswitcher.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "05f07a6e5dda8000f24183345350cbc1"
+    },
+    "permission.general_daynightswitcher_disable.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "5473502990bec8f315f4e4cb2ec6474d"
+    }
+}

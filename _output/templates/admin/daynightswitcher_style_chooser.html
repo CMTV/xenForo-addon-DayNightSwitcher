@@ -1,0 +1,16 @@
+<xf:formrow rowtype="input"
+	label="{$option.title}"
+	hint="{$hintHtml}"
+	explain="{$explainHtml}"
+	html="{$listedHtml}">
+
+	<xf:radio name="{$inputName}" id="{$option.option_id}">
+		<xf:foreach loop="$styles" key="$counter" value="$style">
+			<xf:if is="{{ $option.option_id === 'daynightswitcher_dayTheme' }}">
+				<xf:option value="{$style.style_id}" selected="{{ $style.style_id == $xf.options.daynightswitcher_dayTheme }}" label="{$style.title}" />
+			<xf:else />
+				<xf:option value="{$style.style_id}" selected="{{ $style.style_id == $xf.options.daynightswitcher_nightTheme }}" label="{$style.title}" />
+			</xf:if>
+		</xf:foreach>
+	</xf:radio>
+</xf:formrow>

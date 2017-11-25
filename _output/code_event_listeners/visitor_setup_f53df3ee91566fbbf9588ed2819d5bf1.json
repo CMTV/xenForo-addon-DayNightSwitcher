@@ -1,0 +1,9 @@
+{
+    "event_id": "visitor_setup",
+    "execute_order": 10,
+    "callback_class": "DayNightSwitcher\\Switcher",
+    "callback_method": "switchTheme",
+    "active": true,
+    "hint": "",
+    "description": "Switching theme if needed"
+}

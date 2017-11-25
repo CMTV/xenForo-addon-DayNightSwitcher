@@ -1,0 +1,9 @@
+{
+    "event_id": "entity_structure",
+    "execute_order": 10,
+    "callback_class": "DayNightSwitcher\\EntityStructureExtender",
+    "callback_method": "extendUserOptionStructure",
+    "active": true,
+    "hint": "XF\\Entity\\UserOption",
+    "description": "Extending user options with one new option \"daynightswitcher_enabled\""
+}

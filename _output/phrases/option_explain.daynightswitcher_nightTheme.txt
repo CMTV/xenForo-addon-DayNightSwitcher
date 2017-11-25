@@ -1,0 +1,1 @@
+Style that will be displayed at night. It is better to use dark styles with prevailing <strong>black</strong> color.

@@ -1,0 +1,15 @@
+{
+    "edit_format": "template",
+    "edit_format_params": "template=daynightswitcher_option_template_dayTime\nunits=\u0427\u0430\u0441\u043e\u0432:\u041c\u0438\u043d\u0443\u0442",
+    "data_type": "array",
+    "sub_options": [
+        "start",
+        "end"
+    ],
+    "validation_class": "DayNightSwitcher\\Option\\DayTime",
+    "validation_method": "verifyOption",
+    "default_value": "{\"start\":\"09:00\",\"end\":\"18:00\"}",
+    "relations": {
+        "daynightswitcher": 100
+    }
+}

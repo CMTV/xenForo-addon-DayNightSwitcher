@@ -1,0 +1,22 @@
+{
+    "admin/daynightswitcher_option_template_dayTime.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "e1fa91bb99d114ed8251048f8b9ec3dd"
+    },
+    "admin/daynightswitcher_style_chooser.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "96d8befb3399b05e0ad71014c95e7952"
+    },
+    "admin/daynightswitcher_style_list.less": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "9574dcce688e128c8ddc8689d7816db1"
+    },
+    "public/daynightswitcher_style_chooser_disabled.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "2784ecf570b2ebc2122af591fa8d328a"
+    }
+}

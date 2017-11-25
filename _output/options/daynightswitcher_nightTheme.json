@@ -1,0 +1,12 @@
+{
+    "edit_format": "callback",
+    "edit_format_params": "DayNightSwitcher\\Option\\StyleChooser::renderOption",
+    "data_type": "integer",
+    "sub_options": [],
+    "validation_class": "DayNightSwitcher\\Option\\StyleChooser",
+    "validation_method": "verifyOption",
+    "default_value": "1",
+    "relations": {
+        "daynightswitcher": 50
+    }
+}

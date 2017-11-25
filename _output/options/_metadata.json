@@ -1,0 +1,17 @@
+{
+    "daynightswitcher_dayTheme.json": {
+        "hash": "1ca608adf75ace915eb4162b110b9923"
+    },
+    "daynightswitcher_dayTime.json": {
+        "hash": "785b4650b0411e120b27278368c25b41"
+    },
+    "daynightswitcher_globalEnabled.json": {
+        "hash": "705698ef6acdcecd66e632ed22df7594"
+    },
+    "daynightswitcher_guestsEnabled.json": {
+        "hash": "d50b31588b811d27d0ec02936dfa0447"
+    },
+    "daynightswitcher_nightTheme.json": {
+        "hash": "baabee6bbd88560c4f034494eca9f8b3"
+    }
+}

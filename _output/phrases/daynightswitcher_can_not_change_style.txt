@@ -1,0 +1,1 @@
+You can't change the style because it is changing automatically depending on current time.
